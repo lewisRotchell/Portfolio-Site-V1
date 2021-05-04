@@ -1,6 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
-  line-height: 1.6;
+  line-height: 1.7;
   color: $dark-grey;
 }
 
@@ -36,4 +36,7 @@ h1 {
 
 .lead {
   font-weight: 700;
+}
+.section-title {
+  margin-bottom: 2rem;
 }
