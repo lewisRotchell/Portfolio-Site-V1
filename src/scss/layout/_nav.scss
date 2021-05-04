@@ -1,6 +1,11 @@
+header {
+}
+
 .nav {
   height: 70px;
-  display: fixed;
+  position: fixed;
+  top: 0;
+  width: 100%;
 
   &__inner {
     display: flex;
