@@ -1,8 +1,18 @@
 .about {
+  &__container {
+    @include atMedium {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 2rem;
+    }
+  }
   &__card {
     max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 3rem;
+
+    @include atMedium {
+      margin-bottom: 1rem;
+    }
   }
   &__icon {
     display: inline-block;
