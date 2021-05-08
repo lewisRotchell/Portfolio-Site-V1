@@ -6,6 +6,10 @@
   box-sizing: inherit;
 }
 
+html {
+  height: -webkit-fill-available;
+}
+
 body {
   box-sizing: border-box;
   padding-top: 70px;
