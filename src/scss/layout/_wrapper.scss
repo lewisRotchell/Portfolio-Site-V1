@@ -7,8 +7,12 @@
 
   @include atMedium {
     max-width: 1200px;
-    padding-left: 54px;
-    padding-right: 54px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+
+  @include atLarge {
+    padding: 0;
   }
 
   &--narrow {
