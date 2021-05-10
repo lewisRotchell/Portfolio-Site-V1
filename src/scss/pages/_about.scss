@@ -17,35 +17,36 @@
     max-width: 300px;
     margin: 0 0 3rem 0;
     display: block;
+    margin: 2rem auto;
 
     @include atMedium {
     }
   }
 
   &__title {
+    text-align: center;
     @include atMedium {
-      text-align: center;
     }
   }
   &__icon {
+    text-align: center;
     display: inline-block;
     width: 100%;
     margin-bottom: 0.4rem;
 
     @include atMedium {
-      text-align: center;
     }
   }
 
   &__heading {
+    text-align: center;
     @include atMedium {
-      text-align: center;
     }
   }
 
   &__text {
+    text-align: center;
     @include atMedium {
-      text-align: center;
     }
   }
 }
