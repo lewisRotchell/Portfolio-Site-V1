@@ -1,7 +1,12 @@
 .about {
   &__container {
     margin: 1rem auto 1.7rem auto;
-    max-width: 400px;
+    @include atMedium {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 2rem;
+    }
+
     @include atMedium {
     }
 
@@ -19,6 +24,7 @@
 
   &__title {
     @include atMedium {
+      text-align: center;
     }
   }
   &__icon {
@@ -27,16 +33,19 @@
     margin-bottom: 0.4rem;
 
     @include atMedium {
+      text-align: center;
     }
   }
 
   &__heading {
     @include atMedium {
+      text-align: center;
     }
   }
 
   &__text {
     @include atMedium {
+      text-align: center;
     }
   }
 }
